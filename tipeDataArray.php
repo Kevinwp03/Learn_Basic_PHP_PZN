@@ -6,9 +6,11 @@ $names = ["Kevin", "Williams", "Permana"];
 var_dump($names);
 
 var_dump($names[1]);
+
 //Mengganti nilai dalam array
 $names[0] = "Budi";
 var_dump($names);
+
 //Menghapus array
 unset($names[1]);
 var_dump($names);
